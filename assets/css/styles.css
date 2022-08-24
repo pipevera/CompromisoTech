@@ -9,6 +9,10 @@ body {
   align-items: center;
 }
 
+.contenedor-logos {
+  display: flex;
+  align-items: center;
+}
 .nav-link {
   font-family: 'Roboto', sans-serif;
   color: #23478b;
