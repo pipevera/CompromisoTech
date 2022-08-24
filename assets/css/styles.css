@@ -68,6 +68,12 @@ h2 {
   color: #23478b;
 }
 
+h3 {
+  color: #23478b;
+  font-style: italic;
+  font-family: 'Roboto', sans-serif;
+}
+
 i {
   margin-right: 10px;
   color: #23478b;
