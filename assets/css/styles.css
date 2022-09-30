@@ -1,5 +1,5 @@
-
 body {
+  margin: 0;
   background-image: url("../img/fondo-gris.jpg");
   background-repeat: repeat;
 }
@@ -17,13 +17,62 @@ body {
   font-family: 'Roboto', sans-serif;
   color: #23478b;
 }
+.compromiso {
+  background-image: url("../img/fondo-gris.jpg");
+  background-repeat: repeat;
+}
 
-.hero {
-  background-image: url("../img/hero-img.jpg");
+.hero-desktop {
+  background-image: url("../img/mujer.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+}
 
+.hero-mobile {
+  background-image: url("../img/mujer.mobile.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-compromiso {
+  background-image: url("../img/office.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.hero-gracias {
+  background-image: url("../img/banner3.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+.letters-gracias {
+  padding-top: 9rem;
+  padding-bottom: 9rem;
+}
+
+.letters-compromiso {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+.hero-compromiso p {
+  color: aliceblue;
+  text-shadow: 3px 3px 3px black;
+}
+
+.letters {
+  padding-top: 15rem;
+  padding-bottom: 15rem;
+}
+
+.img-full {
+  height: 300px;
+  object-fit: cover;
+  width: 100%;
 }
 
 .accordion-button {
@@ -36,9 +85,16 @@ body {
   background-repeat: repeat;
 }
 
-.hero p {
+.hero-desktop p {
   color: aliceblue;
+  text-shadow: 3px 3px 3px black;
 }
+
+.hero-mobile p {
+  color: aliceblue;
+  text-shadow: 2px 2px 2px black;
+}
+
 
 .btn {
   background-color: #23478b;
@@ -53,11 +109,12 @@ body {
 
 h1 {
   font-family: 'Roboto', sans-serif;
- /*  padding-top: 80px;
-  padding-bottom: 80px; */
+  text-shadow: 2px 2px 2px black;
   font-style: italic;
-  color: aliceblue;
+  color: #EBA822;
 }
+
+
 
 h2 {
   font-family: 'Roboto', sans-serif;
