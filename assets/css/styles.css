@@ -1,5 +1,9 @@
 body {
   margin: 0;
+  
+}
+
+nav {
   background-image: url("../img/fondo-gris.jpg");
   background-repeat: repeat;
 }
@@ -9,6 +13,11 @@ body {
   align-items: center;
 }
 
+.logos {
+  background-image: url("../img/fondo-gris.jpg");
+  background-repeat: repeat;
+}
+
 .contenedor-logos {
   display: flex;
   align-items: center;
@@ -16,10 +25,6 @@ body {
 .nav-link {
   font-family: 'Roboto', sans-serif;
   color: #23478b;
-}
-.compromiso {
-  background-image: url("../img/fondo-gris.jpg");
-  background-repeat: repeat;
 }
 
 .hero-desktop {
@@ -43,16 +48,17 @@ body {
   background-position: center;
 }
 
-.hero-gracias {
+/* .hero-gracias {
   background-image: url("../img/banner3.jpg");
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
-}
+  min-height: 100vh;
+} */
 
 .letters-gracias {
-  padding-top: 9rem;
-  padding-bottom: 9rem;
+  padding-top: 15rem;
+  padding-bottom: 15rem;
 }
 
 .letters-compromiso {
@@ -75,15 +81,15 @@ body {
   width: 100%;
 }
 
-.accordion-button {
+/* .accordion-button {
   background-image: url("../img/fondo-gris.jpg");
   background-repeat: repeat;
-}
+} */
 
-.accordion-collapse {
+/* .accordion-collapse {
   background-image: url("../img/fondo-gris.jpg");
   background-repeat: repeat;
-}
+} */
 
 .hero-desktop p {
   color: aliceblue;
@@ -111,7 +117,7 @@ h1 {
   font-family: 'Roboto', sans-serif;
   text-shadow: 2px 2px 2px black;
   font-style: italic;
-  color: #EBA822;
+  color: aliceblue;
 }
 
 
@@ -131,14 +137,19 @@ h3 {
   font-family: 'Roboto', sans-serif;
 }
 
-i {
+.iconos-compromiso {
+  font-size: 50px;
+  color: #5cbbf6;
+}
+
+.iconos {
   margin-right: 10px;
   color: #23478b;
 }
 
 p {
   font-family: 'Roboto', sans-serif;
-  font-size: 20px;
+  font-size: 18px;
 }
 
 li {
@@ -151,5 +162,5 @@ li {
 }
 
 .accordion-text {
-  font-size: 18px;
+  font-size: 17px;
 }
