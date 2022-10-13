@@ -18,6 +18,11 @@ nav {
   background-repeat: repeat;
 }
 
+.carousel-pequeño {
+  background-image: url("../img/fondo-gris.jpg");
+  background-repeat: repeat;
+}
+
 .contenedor-logos {
   display: flex;
   align-items: center;
